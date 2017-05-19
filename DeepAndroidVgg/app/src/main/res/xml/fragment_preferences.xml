@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+    <EditTextPreference
+        android:title="Iterations"
+        android:key="iterations"
+        android:defaultValue="1" />
+
+    <EditTextPreference
+        android:title="MiniBatch"
+        android:key="minibatch"
+        android:defaultValue="1" />
+
+</PreferenceScreen>
